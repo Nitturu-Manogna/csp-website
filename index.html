@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="symptom checker 1.jpg" type="image/jpeg">
+</head>
+<style>
+    .page {
+        margin: 22vh auto;
+        width: 100vh;
+        animation: transitionBottom 1s;
+    }
+
+    li {
+        list-style: none;
+        margin: 7vh;
+        background-color: rgba(9, 57, 97);
+        padding: 1.3vh;
+        border-radius: 3vh;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 4.2vh;
+        cursor: pointer;
+        color: white;
+    }
+
+    label:hover {
+        font-size: 4.5vh;
+    }
+
+    .arrow {
+        font-size: 1.2vh;
+        transform: scale(2);
+        padding: 1.3vh;
+        color: white;
+    }
+
+    .content {
+        padding: 0vh 3vh;
+        line-height: 3.5vh;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked+.content {
+        max-height: fit-content;
+        font-size: 2.7vh;
+        background-color: white;
+    }
+
+    @media (max-width: 630px) {
+        .page {
+            width: 100%;
+            margin: 25vh auto;
+            padding: 0;
+        }
+
+        li {
+            margin: 3vh 0;
+            padding:0.5vh;
+        }
+
+        label{
+            font-size: 3.2vh;
+        }
+
+        label:hover {
+            font-size: 3.2vh;
+        }
+
+        input[type="checkbox"]:checked+.content {
+            font-size: 2.5vh;
+            line-height: 3vh;
+        }
+
+        .content {
+            padding: 0;
+        }
+    }
+</style>
+
+<body>
+    <section class="navbar">
+        <h1>Symptom Checker<br><span>(Your digital health aide)</span></br></h1>
+        <div class="navbar-right">
+            <a href="checker.html">Check Symptoms</a>
+        </div>
+    </section>
+    <ul class="page">
+        <li>
+            <label for="about">About<strong class="arrow">&#x25BC;</strong></label>
+            <input type="checkbox" id="about">
+            <p class="content"><b><br>Welcome to online Symptom Checker. The purpose of this tool is to help you narrow
+                    your
+                    search
+                    along your information journey; this is not a diagnostic tool.Our Symptom checker suggests
+                    potential medical conditions by comparing your symptoms with our database. The resulting lists are
+                    not prioritised by clinical relevance to your specific case.<br><br>This tool allows you to
+                    choose a variety of factors related to your symptom, in order to help you narrow the potential
+                    medical conditions related to your symptom. This tool does not incorporate all the personal,
+                    health and demographic factors related to you, individually, that would allow a definitive cause
+                    or causes to be suggested.The most reliable way to determine the cause of your symptom,
+                    and what to do, is to visit your health-care provider. Thank you for using the Symptom Checker.
+                </b>
+            </p>
+        </li>
+        <li>
+            <label for="how">How To Get Started?<strong class="arrow">&#x25BC;</strong></label>
+            <input type="checkbox" id="how">
+            <p class="content">
+                <b><br>>>Click on "Check Symptoms" which is visible on top of the page.<br><br>>>Begin by entering
+                    symptoms that best describe your current condition.<br><br>>>Symptoms can be
+                    entered in your own words or chosen from the list of matching suggestions; select the most
+                    appropriate symptom.<br><br>>>If no suggestions appear, double-check your spelling or use different
+                    words to
+                    describe your symptoms.<br><br>>>Follow the best practices for better results.<br><br>>>Submitting a
+                    symptom leads to a page that displays a list of
+                    potential
+                    diagnoses.
+                </b>
+            </p>
+        </li>
+        <li>
+            <label for="practices">Best Practices<strong class="arrow">&#x25BC;</strong></label>
+            <input type="checkbox" id="practices">
+            <p class="content">
+                <b><br>>>For example, "abdominal pain" is better than "belly hurts".<br><br>>>Start with entering the
+                    area
+                    of the body affected, then the symptom. For example "abdominal pain" instead of "pain in
+                    abdomen".<br><br>>>Use text, not numbers. For example, enter "high blood pressure" instead of "BP
+                    150/90".<br><br>>>Enter only abnormal test results, for example "low iron". Do not enter tests that
+                    you have been told are normal.
+                </b>
+            </p>
+        </li>
+        <li>
+            <label for="references">References<strong class="arrow">&#x25BC;</strong></label>
+            <input type="checkbox" id="references">
+            <p class="content">
+                <b>***References are from CHATGPT.</b>
+            </p>
+        </li>
+    </ul>
+</body>
+
+</html>

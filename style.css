@@ -1,0 +1,128 @@
+body {
+    background-color: skyblue;
+    background-image: url("symptom checker 2.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(9, 57, 97);
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-right {
+    display: flex;
+    padding-right: 6.5vh;
+}
+
+h1 {
+    font-size: 4.5vh;
+    color: whitesmoke;
+    margin: 0 4vh;
+    align-items: center;
+}
+
+span {
+    font-size: 2.5vh;
+    padding-left: 3.8vh;
+}
+
+a {
+    padding: 1.3vh;
+    margin: 1.3vh;
+    color: whitesmoke;
+    background-color: rgba(135, 207, 235, 0.381);
+    border-radius: 3vh;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 2.7vh;
+    text-decoration: underline;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(9, 57, 97);
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 2vh;
+    height: 2vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: skyblue;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(9, 57, 97);
+    border-radius: 1.3vh;
+    border: 0.75vh solid skyblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: skyblue;
+    border: 0.75vh solid rgb(9, 57, 97);
+}
+
+::-webkit-scrollbar-button {
+    background-color: rgba(9, 57, 97, 0.845);
+    background-size: contain;
+}
+
+::-webkit-scrollbar-button:increment {
+    background-image: url("down arrow.jpg");
+}
+
+::-webkit-scrollbar-button:decrement {
+    background-image: url("up arrow.jpg");
+}
+
+@keyframes transitionBottom {
+    from {
+        opacity: 0;
+        transform: translateY(-15vh);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}
+
+@media (max-width: 630px) {
+    body {
+        background-image: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 4vh;
+        text-wrap: balance;
+    }
+
+    .navbar-right {
+        padding: 0;
+    }
+
+    .heading {
+        margin-top: 30vh;
+    }
+}

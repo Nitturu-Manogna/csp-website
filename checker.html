@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checker page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="symptom checker 1.jpg" type="image/jpeg">
+</head>
+<style>
+    body {
+        margin: 15vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading {
+        margin-top: 6.5vh;
+        margin-bottom: 5vh;
+    }
+
+    .box {
+        border-radius: 10vh;
+        background-color: rgb(9, 57, 97);
+        animation: transitionBottom 1s;
+        width: 100%;
+    }
+
+    .f {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        font-style: oblique;
+        color: skyblue;
+        display: flex;
+        flex-direction: column;
+        gap: 4.5vh;
+        align-items: center;
+        justify-content: center;
+        padding: 13vh;
+    }
+
+    .s {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #symptoms {
+        border-radius: 0.8vh;
+        color: rgb(9, 57, 97);
+        font-size: 2.5vh;
+    }
+
+    #symptoms:focus {
+        border: 0.7vh solid rgb(9, 57, 97);
+    }
+
+    #suggestions {
+        position: static;
+        width: 57vh;
+        background-color: white;
+        color: rgb(9, 57, 97);
+    }
+
+    .suggestion-item {
+        text-align: center;
+        cursor: pointer;
+        border: 0.01px solid rgb(9, 57, 97);
+    }
+
+    .suggestion-item:hover {
+        background-color: skyblue;
+    }
+
+    p {
+        margin: 0vh;
+        font-size: 2.5vh;
+    }
+
+    button {
+        font-size: 2.7vh;
+        color: rgb(9, 57, 97);
+        background-color: skyblue;
+        border-radius: 8vh;
+    }
+
+    button:hover {
+        color: skyblue;
+        background-color: rgb(9, 57, 97);
+    }
+
+    @media (max-width: 1200px) {
+        body {
+            margin: 15vh 5vh;
+        }
+
+        input {
+            margin-right: 6vh;
+            margin-left: 8vh;
+        }
+
+        #symptoms {
+            font-size: 2vh;
+        }
+
+        #suggestions {
+            width: 50vh;
+            margin: 0 3.8vh 0 7vh;
+        }
+
+        p {
+            font-size: 2vh;
+        }
+
+        button {
+            font-size: 2vh;
+        }
+    }
+
+    @media (max-width:460px) {
+        body {
+            margin: 15vh 0vh;
+        }
+
+        .heading {
+            display: none;
+        }
+
+        .box {
+            background: none;
+        }
+
+        .f {
+            align-items: flex-start;
+            padding: 13vh 2vh;
+            color: rgb(9, 57, 97);
+        }
+
+        input {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        #symptoms {
+            font-size: 1.7vh;
+        }
+
+        #suggestions {
+            width: 40vh;
+            margin: 0;
+        }
+
+        .suggestion-item {
+            font-size: 2.5vh;
+        }
+
+        button {
+            color: skyblue;
+            background-color: rgb(9, 57, 97);
+        }
+
+        button:hover {
+            color: rgb(9, 57, 97);
+            background-color: skyblue;
+        }
+    }
+</style>
+
+<body>
+    <section class="navbar">
+        <h1>Symptom Checker<br><span>(Your digital health aide)</span></br></h1>
+        <div class="navbar-right">
+            <a href="index.html">Back To Home</a>
+        </div>
+    </section>
+    <h1 class="heading">CHECK YOUR SYMPTOMS</h1>
+    <div class="box">
+        <form class="f">
+            <label for="symptoms">Enter the symptoms:</label>
+            <section class="s">
+                <input type="text" id="symptoms" title="Enter symptoms seperated by commas..." size="40vh" required>
+                <div id="suggestions"></div>
+            </section>
+            <p>NOTE:Symptoms should be seperated by commas(',').</p>
+            <div>
+                <button type="submit" onclick="event.preventDefault(); checkSymptoms();">Submit</button>
+                <button type="button" onclick="clearForm()">Reset</button>
+            </div>
+        </form>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

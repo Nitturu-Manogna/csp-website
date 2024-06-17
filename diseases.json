@@ -1,0 +1,1461 @@
+[
+    {
+        "disease": "Influenza(Flu)",
+        "symptoms": [
+            "fever",
+            "chills",
+            "cough",
+            "muscle pains",
+            "sore throat",
+            "cold",
+            "congestion",
+            "headache"
+        ],
+        "description": "A contagious respiratory illness caused by influenza viruses.",
+        "remedies": [
+            "rest",
+            "fluids",
+            "over-the-counter pain relievers",
+            "antiviral medications"
+        ]
+    },
+    {
+        "disease": "Common Cold",
+        "symptoms": [
+            "sneezing",
+            "cold",
+            "congestion",
+            "sore throat",
+            "cough",
+            "mild headache"
+        ],
+        "description": "A viral infectious disease of the upper respiratory tract.",
+        "remedies": [
+            "rest",
+            "hydration",
+            "over-the-counter cold remedies",
+            "throat lozenges"
+        ]
+    },
+    {
+        "disease": "Asthma",
+        "symptoms": [
+            "Shortness of breath",
+            "wheezing",
+            "coughing",
+            "chest tightness"
+        ],
+        "description": "A chronic condition causing inflammation and narrowing of the airways.",
+        "remedies": [
+            "Inhalers",
+            "corticosteroids",
+            "avoiding triggers",
+            "long-term asthma control medications"
+        ]
+    },
+    {
+        "disease": "Diabetes Mellitus",
+        "symptoms": [
+            "Increased thirst",
+            "frequent urination",
+            "extreme hunger",
+            "fatigue"
+        ],
+        "description": "A metabolic disorder characterized by high blood sugar levels.",
+        "remedies": [
+            "Insulin therapy",
+            "oral diabetes medications",
+            "lifestyle changes (diet and exercise)"
+        ]
+    },
+    {
+        "disease": "Hypertension (High Blood Pressure)",
+        "symptoms": [
+            "Often asymptomatic",
+            "headache",
+            "shortness of breath",
+            "nosebleeds"
+        ],
+        "description": "A condition where the force of the blood against the artery walls is too high.",
+        "remedies": [
+            "Lifestyle changes (diet, exercise)",
+            "antihypertensive medications"
+        ]
+    },
+    {
+        "disease": "Coronary Artery Disease (CAD)",
+        "symptoms": [
+            "Chest pain (angina)",
+            "shortness of breath",
+            "heart attack"
+        ],
+        "description": "Damage or disease in the heart’s major blood vessels.",
+        "remedies": [
+            "Medications",
+            "lifestyle changes",
+            "surgical procedures (angioplasty, bypass surgery)"
+        ]
+    },
+    {
+        "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "symptoms": [
+            "Shortness of breath",
+            "chronic cough",
+            "mucus production",
+            "wheezing"
+        ],
+        "description": "A group of lung diseases that block airflow and make it difficult to breathe.",
+        "remedies": [
+            "Bronchodilators",
+            "inhaled steroids",
+            "pulmonary rehabilitation",
+            "oxygen therapy"
+        ]
+    },
+    {
+        "disease": "Rheumatoid Arthritis",
+        "symptoms": [
+            "joint pains",
+            "swelling",
+            "stiffness",
+            "loss of joint function"
+        ],
+        "description": "An autoimmune disorder that primarily affects joints.",
+        "remedies": [
+            "Anti-inflammatory drugs",
+            "disease-modifying antirheumatic drugs (DMARDs)",
+            "physical therapy"
+        ]
+    },
+    {
+        "disease": "Osteoporosis",
+        "symptoms": [
+            "Often asymptomatic until fractures occur",
+            "back pain",
+            "loss of height"
+        ],
+        "description": "A condition where bones become weak and brittle.",
+        "remedies": [
+            "Calcium and vitamin D supplements",
+            "medications",
+            "weight-bearing exercise"
+        ]
+    },
+    {
+        "disease": "Alzheimer’s Disease",
+        "symptoms": [
+            "Memory loss",
+            "confusion",
+            "difficulty with language and decision-making"
+        ],
+        "description": "A progressive neurological disorder causing memory loss and cognitive decline.",
+        "remedies": [
+            "Medications to manage symptoms",
+            "cognitive therapy",
+            "supportive care"
+        ]
+    },
+    {
+        "disease": "Parkinson’s Disease",
+        "symptoms": [
+            "Tremors",
+            "stiffness",
+            "slowness of movement",
+            "balance problems"
+        ],
+        "description": "A neurological disorder affecting movement.",
+        "remedies": [
+            "Medications (levodopa)",
+            "physical therapy",
+            "surgical treatments (deep brain stimulation)"
+        ]
+    },
+    {
+        "disease": "Tuberculosis (TB)",
+        "symptoms": [
+            "Persistent cough",
+            "chest pain",
+            "coughing up blood",
+            "weight loss",
+            "fever"
+        ],
+        "description": "A bacterial infection that primarily affects the lungs.",
+        "remedies": [
+            "Antibiotic treatment over several months"
+        ]
+    },
+    {
+        "disease": "HIV/AIDS",
+        "symptoms": [
+            "Flu-like symptoms initially",
+            "progressing to opportunistic infections and cancers"
+        ],
+        "description": "A viral infection that attacks the immune system.",
+        "remedies": [
+            "Antiretroviral therapy (ART)",
+            "regular monitoring",
+            "supportive treatments for complication"
+        ]
+    },
+    {
+        "disease": "Malaria",
+        "symptoms": [
+            "Fever",
+            "chills",
+            "headache",
+            "nausea",
+            "muscle pain"
+        ],
+        "description": "A mosquito-borne infectious disease.",
+        "remedies": [
+            "Antimalarial medications",
+            "mosquito prevention measures"
+        ]
+    },
+    {
+        "disease": "Hepatitis B",
+        "symptoms": [
+            "Fatigue",
+            "jaundice",
+            "abdominal pain",
+            "dark urine"
+        ],
+        "description": "A liver infection caused by the hepatitis B virus.",
+        "remedies": [
+            "Antiviral medications",
+            "liver monitoring",
+            "vaccination for prevention"
+        ]
+    },
+    {
+        "disease": "Celiac Disease",
+        "symptoms": [
+            "Diarrhea",
+            "bloating",
+            "gas",
+            "fatigue",
+            "anemia"
+        ],
+        "description": "An immune reaction to eating gluten.",
+        "remedies": [
+            "Strict gluten-free die"
+        ]
+    },
+    {
+        "disease": "Irritable Bowel Syndrome (IBS)",
+        "symptoms": [
+            "Cramping",
+            "abdominal pain",
+            "bloating",
+            "gas",
+            "diarrhea",
+            "constipation"
+        ],
+        "description": "A gastrointestinal disorder affecting the large intestine.",
+        "remedies": [
+            "Dietary changes",
+            "medications",
+            "stress management"
+        ]
+    },
+    {
+        "disease": "Peptic Ulcer Disease",
+        "symptoms": [
+            "stomach burn",
+            "stomach pain",
+            "bloating",
+            "heartburn",
+            "nausea"
+        ],
+        "description": "Sores that develop on the lining of the stomach, small intestine, or esophagus.",
+        "remedies": [
+            "Antibiotics (for H. pylori infection)",
+            "proton pump inhibitors",
+            "lifestyle changes"
+        ]
+    },
+    {
+        "disease": "Migraine",
+        "symptoms": [
+            "Intense headache",
+            "one side headache",
+            "nausea",
+            "vomiting",
+            "sensitivity to light and sound"
+        ],
+        "description": "A type of headache characterized by severe pain and other symptoms.",
+        "remedies": [
+            "Pain relief medications",
+            "triptans",
+            "lifestyle changes to avoid triggers"
+        ]
+    },
+    {
+        "disease": "Gout",
+        "symptoms": [
+            "Severe joint pains",
+            "redness",
+            "swelling",
+            "often affecting the big toe"
+        ],
+        "description": "A form of arthritis caused by excess uric acid in the blood.",
+        "remedies": [
+            "Anti-inflammatory medications",
+            "lifestyle changes",
+            "medications to lower uric acid levels"
+        ]
+    },
+    {
+        "disease": "Psoriasis",
+        "symptoms": [
+            "Red patches of skin covered with thick",
+            "silvery scales",
+            "itching"
+        ],
+        "description": "A chronic skin condition that speeds up the life cycle of skin cells.",
+        "remedies": [
+            "Topical treatments",
+            "phototherapy",
+            "systemic medications"
+        ]
+    },
+    {
+        "disease": "Eczema (Atopic Dermatitis)",
+        "symptoms": [
+            "Dry",
+            "sensitive skin",
+            "intense itching",
+            "red, inflamed skin"
+        ],
+        "description": "A condition causing inflamed, itchy, cracked, and rough skin.",
+        "remedies": [
+            "Moisturizers",
+            "corticosteroid creams",
+            "avoiding triggers"
+        ]
+    },
+    {
+        "disease": "Lyme Disease",
+        "symptoms": [
+            "Rash",
+            "fever",
+            "headache",
+            "fatigue",
+            "joint pains"
+        ],
+        "description": "An infectious disease caused by the Borrelia bacterium, transmitted by ticks.",
+        "remedies": [
+            "Antibiotic treatment",
+            "prevention of tick bites"
+        ]
+    },
+    {
+        "disease": "Pneumonia",
+        "symptoms": [
+            "Cough with phlegm",
+            "fever",
+            "chills",
+            "difficulty breathing"
+        ],
+        "description": "An infection that inflames the air sacs in one or both lungs.",
+        "remedies": [
+            "Antibiotics (if bacterial)",
+            "antiviral medications",
+            "supportive care (oxygen therapy)"
+        ]
+    },
+    {
+        "disease": "Epilepsy",
+        "symptoms": [
+            "Seizures",
+            "temporary confusion",
+            "staring spells",
+            "uncontrollable jerking movement"
+        ],
+        "description": "A neurological disorder marked by sudden recurrent episodes of seizures.",
+        "remedies": [
+            "Antiepileptic drugs",
+            "lifestyle adjustments",
+            "surgery in some cases"
+        ]
+    },
+    {
+        "disease": "Multiple Sclerosis (MS)",
+        "symptoms": [
+            "Numbness",
+            "weakness",
+            "balance issues",
+            "blurred vision"
+        ],
+        "description": "An autoimmune disease affecting the brain and spinal cord.",
+        "remedies": [
+            "Disease-modifying therapies",
+            "steroids",
+            "physical therapy"
+        ]
+    },
+    {
+        "disease": "Amyotrophic Lateral Sclerosis (ALS)",
+        "symptoms": [
+            "Muscle weakness",
+            "twitching",
+            "difficulty speaking",
+            "swallowing issues"
+        ],
+        "description": "A progressive neurodegenerative disease affecting nerve cells in the brain and spinal cord.",
+        "remedies": [
+            "Supportive care",
+            "medications like riluzole",
+            "physical therapy"
+        ]
+    },
+    {
+        "disease": "Cystic Fibrosis",
+        "symptoms": [
+            "Persistent cough",
+            "frequent lung infections",
+            "poor growth",
+            "fatty stools"
+        ],
+        "description": "A genetic disorder affecting the lungs and digestive system.",
+        "remedies": [
+            "Chest physiotherapy",
+            "medications",
+            "enzyme supplements",
+            "lung transplants"
+        ]
+    },
+    {
+        "disease": "Anemia",
+        "symptoms": [
+            "Fatigue",
+            "weakness",
+            "pale skin",
+            "shortness of breath"
+        ],
+        "description": "A condition where you lack enough healthy red blood cells.",
+        "remedies": [
+            "Iron supplements",
+            "vitamin B12 injections",
+            "dietary changes"
+        ]
+    },
+    {
+        "disease": "Leukemia",
+        "symptoms": [
+            "Fatigue",
+            "frequent infections",
+            "easy bruising",
+            "weight loss"
+        ],
+        "description": "A type of cancer affecting blood and bone marrow.",
+        "remedies": [
+            "Chemotherapy",
+            "radiation therapy",
+            "bone marrow transplant"
+        ]
+    },
+    {
+        "disease": "Lupus",
+        "symptoms": [
+            "Fatigue",
+            "joint pains",
+            "skin rashes",
+            "fever"
+        ],
+        "description": "A chronic autoimmune disease that can affect any part of the body.",
+        "remedies": [
+            "Anti-inflammatory drugs",
+            "immunosuppressants",
+            "lifestyle changes"
+        ]
+    },
+    {
+        "disease": "Pancreatitis",
+        "symptoms": [
+            "Upper abdominal pain",
+            "nausea",
+            "vomiting",
+            "fever"
+        ],
+        "description": "Inflammation of the pancreas.",
+        "remedies": [
+            "Fasting",
+            "fluids",
+            "pain medications",
+            "antibiotics"
+        ]
+    },
+    {
+        "disease": "Crohn’s Disease",
+        "symptoms": [
+            "Diarrhea",
+            "abdominal pain",
+            "weight loss",
+            "fatigue"
+        ],
+        "description": "A chronic inflammatory bowel disease.",
+        "remedies": [
+            "Anti-inflammatory medications",
+            "immunosuppressants",
+            "surgery"
+        ]
+    },
+    {
+        "disease": "Ulcerative Colitis",
+        "symptoms": [
+            "Diarrhea",
+            "abdominal pain",
+            "rectal bleeding",
+            "weight loss"
+        ],
+        "description": "A chronic inflammatory bowel disease affecting the colon.",
+        "remedies": [
+            "Anti-inflammatory drugs",
+            "immune system suppressors",
+            "surgery"
+        ]
+    },
+    {
+        "disease": "Hypothyroidism",
+        "symptoms": [
+            "Fatigue",
+            "weight gain",
+            "cold intolerance",
+            "depression"
+        ],
+        "description": "A condition where the thyroid gland doesn't produce enough hormone.",
+        "remedies": [
+            "Thyroid hormone replacement therapy"
+        ]
+    },
+    {
+        "disease": "Hyperthyroidism",
+        "symptoms": [
+            "Weight loss",
+            "rapid heartbeat",
+            "nervousness",
+            "sweating"
+        ],
+        "description": "A condition where the thyroid gland produces too much hormone.",
+        "remedies": [
+            "Antithyroid medications",
+            "radioactive iodine",
+            "surgery"
+        ]
+    },
+    {
+        "disease": "Gallstones",
+        "symptoms": [
+            "Severe abdominal pain",
+            "nausea",
+            "vomiting",
+            "jaundice"
+        ],
+        "description": "Hardened deposits in the gallbladder.",
+        "remedies": [
+            "Surgery (cholecystectomy)",
+            "medications to dissolve stones"
+        ]
+    },
+    {
+        "disease": "Kidney Stones",
+        "symptoms": [
+            "Severe pain",
+            "blood in urine",
+            "nausea",
+            "vomiting"
+        ],
+        "description": "Hard deposits of minerals and salts that form in the kidneys.",
+        "remedies": [
+            "Drinking water",
+            "pain relievers",
+            "medical procedures to remove stones"
+        ]
+    },
+    {
+        "disease": "Polycystic Ovary Syndrome (PCOS)",
+        "symptoms": [
+            "Irregular periods",
+            "excess hair growth",
+            "acne",
+            "obesity"
+        ],
+        "description": "A hormonal disorder causing enlarged ovaries with cysts.",
+        "remedies": [
+            "Hormonal birth control",
+            "anti-androgen medications",
+            "lifestyle change"
+        ]
+    },
+    {
+        "disease": "Hemophilia",
+        "symptoms": [
+            "Excessive bleeding",
+            "easy bruising",
+            "joint pains"
+        ],
+        "description": "A genetic disorder impairing the body's ability to make blood clots.",
+        "remedies": [
+            "Clotting factor replacement therapy"
+        ]
+    },
+    {
+        "disease": "Huntington's Disease",
+        "symptoms": [
+            "Involuntary movements",
+            "cognitive decline",
+            "psychiatric issues"
+        ],
+        "description": "A genetic disorder causing the progressive breakdown of nerve cells in the brain.",
+        "remedies": [
+            "Medications to manage symptoms",
+            "physical therapy",
+            "supportive care"
+        ]
+    },
+    {
+        "disease": "Sickle Cell Anemia",
+        "symptoms": [
+            "Pain episodes",
+            "anemia",
+            "swelling in hands and feet",
+            "frequent infections"
+        ],
+        "description": "A genetic disorder causing red blood cells to become misshapen.",
+        "remedies": [
+            "Pain management",
+            "blood transfusions",
+            "bone marrow transplant"
+        ]
+    },
+    {
+        "disease": "Dengue Fever",
+        "symptoms": [
+            "High fever",
+            "severe headache",
+            "pain behind the eyes",
+            "joint and muscle pain"
+        ],
+        "description": "A mosquito-borne viral infection.",
+        "remedies": [
+            "Supportive care",
+            "fluids",
+            "pain relievers"
+        ]
+    },
+    {
+        "disease": "Zika Virus",
+        "symptoms": [
+            "Mild fever",
+            "rash",
+            "joint pains",
+            "red eyes"
+        ],
+        "description": "A virus transmitted primarily by Aedes mosquitoes.",
+        "remedies": [
+            "Rest",
+            "hydration",
+            "pain relief",
+            "prevention of mosquito bites"
+        ]
+    },
+    {
+        "disease": "Ebola Virus Disease",
+        "symptoms": [
+            "Fever",
+            "severe headache",
+            "muscle pain",
+            "weakness",
+            "hemorrhaging"
+        ],
+        "description": "A severe, often fatal illness in humans caused by the Ebola virus.",
+        "remedies": [
+            "Supportive care",
+            "fluids, and electrolyte management",
+            "experimental treatments"
+        ]
+    },
+    {
+        "disease": "Yellow Fever",
+        "symptoms": [
+            "Fever",
+            "chills",
+            "severe headache",
+            "jaundice",
+            "bleeding"
+        ],
+        "description": "A viral infection transmitted by mosquitoes.",
+        "remedies": [
+            "Supportive care",
+            "vaccination for prevention"
+        ]
+    },
+    {
+        "disease": "Rabies",
+        "symptoms": [
+            "Fever",
+            "headache",
+            "excess salivation",
+            "muscle spasms",
+            "paralysis"
+        ],
+        "description": "A deadly virus spread to people from the saliva of infected animals.",
+        "remedies": [
+            "Post-exposure prophylaxis (PEP)",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Cholera",
+        "symptoms": [
+            "Severe diarrhea",
+            "vomiting",
+            "dehydration",
+            "muscle cramps"
+        ],
+        "description": "An infectious disease causing severe watery diarrhea.",
+        "remedies": [
+            "Oral rehydration salts",
+            "intravenous fluids",
+            "antibiotics"
+        ]
+    },
+    {
+        "disease": "Measles",
+        "symptoms": [
+            "High fever",
+            "cough",
+            "cold",
+            "inflamed eyes",
+            "red rash"
+        ],
+        "description": "A highly contagious viral disease.",
+        "remedies": [
+            "Supportive care",
+            "vitamin A supplements",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Mumps",
+        "symptoms": [
+            "Swollen salivary glands",
+            "fever",
+            "headache",
+            "muscle pains"
+        ],
+        "description": "A viral infection affecting the salivary glands.",
+        "remedies": [
+            "Supportive care",
+            "pain relievers",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Hepatitis C",
+        "symptoms": [
+            "Fatigue",
+            "fever",
+            "dark urine",
+            "jaundice"
+        ],
+        "description": "A liver infection caused by the hepatitis C virus.",
+        "remedies": [
+            "Antiviral medications",
+            "liver monitoring",
+            "lifestyle changes"
+        ]
+    },
+    {
+        "disease": "Bronchitis",
+        "symptoms": [
+            "Cough",
+            "mucus production",
+            "fatigue",
+            "shortness of breath"
+        ],
+        "description": "Inflammation of the bronchial tubes.",
+        "remedies": [
+            "Rest",
+            "fluids",
+            "cough medicine",
+            "bronchodilators"
+        ]
+    },
+    {
+        "disease": "Mononucleosis(Mono)",
+        "symptoms": [
+            "Fatigue",
+            "sore throat",
+            "fever",
+            "swollen lymph nodes"
+        ],
+        "description": "A viral infection often caused by the Epstein-Barr virus.",
+        "remedies": [
+            "Rest",
+            "hydration",
+            "over-the-counter pain and fever reducers"
+        ]
+    },
+    {
+        "disease": "Meningitis",
+        "symptoms": [
+            "Severe headache",
+            "fever",
+            "stiff neck",
+            "nausea"
+        ],
+        "description": "Inflammation of the membranes surrounding the brain and spinal cord.",
+        "remedies": [
+            "Antibiotics (bacterial)",
+            "supportive care",
+            "antiviral medications (viral)"
+        ]
+    },
+    {
+        "disease": "Pneumothorax (Collapsed Lung)",
+        "symptoms": [
+            "Sudden chest pain",
+            "shortness of breath"
+        ],
+        "description": "Air enters the pleural space, causing lung collapse.",
+        "remedies": [
+            "Needle aspiration",
+            "chest tube insertion",
+            "surgery in severe cases"
+        ]
+    },
+    {
+        "disease": "Cirrhosis",
+        "symptoms": [
+            "Fatigue",
+            "jaundice",
+            "swelling in legs and abdomen"
+        ],
+        "description": "Chronic liver damage leading to scarring and liver failure.",
+        "remedies": [
+            "Treating underlying cause",
+            "liver transplant",
+            "medications to manage symptoms"
+        ]
+    },
+    {
+        "disease": "Glaucoma",
+        "symptoms": [
+            "Slow vision loss",
+            "eye pain",
+            "halos around lights"
+        ],
+        "description": "A group of eye conditions that damage the optic nerve.",
+        "remedies": [
+            "Eye drops",
+            "oral medications",
+            "surgery",
+            "laser treatmen"
+        ]
+    },
+    {
+        "disease": "Macular Degeneration",
+        "symptoms": [
+            "Blurred vision",
+            "difficulty reading",
+            "dark areas in central vision"
+        ],
+        "description": "An eye disease that causes vision loss in the center of the field of vision.",
+        "remedies": [
+            "Vitamins",
+            "laser therapy",
+            "injections into the eye"
+        ]
+    },
+    {
+        "disease": "Atherosclerosis",
+        "symptoms": [
+            "Often asymptomatic until a blockage occurs",
+            "chest pain",
+            "leg pain"
+        ],
+        "description": "Hardening and narrowing of the arteries due to plaque buildup.",
+        "remedies": [
+            "Lifestyle changes",
+            "medications",
+            "surgical procedures (angioplasty, bypass surgery)"
+        ]
+    },
+    {
+        "disease": "Varicella (Chickenpox)",
+        "symptoms": [
+            "Itchy rash",
+            "fever",
+            "tiredness"
+        ],
+        "description": "A highly contagious viral infection causing an itchy rash.",
+        "remedies": [
+            "Antihistamines",
+            "antiviral medications",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Tetanus",
+        "symptoms": [
+            "Jaw cramping",
+            "muscle stiffness",
+            "difficulty swallowing"
+        ],
+        "description": "A bacterial infection causing muscle stiffness and spasms.",
+        "remedies": [
+            "Tetanus immunoglobulin",
+            "antibiotics",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Pertussis (Whooping Cough)",
+        "symptoms": [
+            "Severe coughing fits",
+            "whooping sound",
+            "vomiting after coughing"
+        ],
+        "description": "A highly contagious respiratory disease caused by Bordetella pertussis.",
+        "remedies": [
+            "Antibiotics",
+            "supportive care",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Scabies",
+        "symptoms": [
+            "Intense itching",
+            "rash with small red bumps"
+        ],
+        "description": "A skin infestation by the mite Sarcoptes scabiei.",
+        "remedies": [
+            "Prescription creams",
+            "oral medications"
+        ]
+    },
+    {
+        "disease": "Norovirus",
+        "symptoms": [
+            "Nausea",
+            "vomiting",
+            "diarrhea",
+            "stomach pain"
+        ],
+        "description": "A highly contagious virus causing gastroenteritis.",
+        "remedies": [
+            "Hydration",
+            "rest",
+            "over-the-counter medications for symptoms"
+        ]
+    },
+    {
+        "disease": "Hantavirus Pulmonary Syndrome",
+        "symptoms": [
+            "Fever",
+            "muscle pains",
+            "shortness of breath"
+        ],
+        "description": "A severe respiratory disease transmitted by rodent droppings.",
+        "remedies": [
+            "Intensive care",
+            "oxygen therapy"
+        ]
+    },
+    {
+        "disease": "West Nile Virus",
+        "symptoms": [
+            "Fever",
+            "headache",
+            "body pains",
+            "joint pains"
+        ],
+        "description": "A mosquito-borne infection.",
+        "remedies": [
+            "Supportive care",
+            "pain relievers"
+        ]
+    },
+    {
+        "disease": "Typhoid Fever",
+        "symptoms": [
+            "High fever",
+            "weakness",
+            "stomach pain",
+            "headache"
+        ],
+        "description": "A bacterial infection caused by Salmonella typhi.",
+        "remedies": [
+            "Antibiotics",
+            "hydration",
+            "vaccination for prevention"
+        ]
+    },
+    {
+        "disease": "Rocky Mountain Spotted Fever",
+        "symptoms": [
+            "Fever",
+            "rash",
+            "headache",
+            "muscle pain"
+        ],
+        "description": "A bacterial infection spread by tick bites.",
+        "remedies": [
+            "Antibiotics (doxycycline)"
+        ]
+    },
+    {
+        "disease": "Leprosy (Hansen’s Disease)",
+        "symptoms": [
+            "Skin sores",
+            "nerve damage",
+            "muscle weakness"
+        ],
+        "description": "A chronic infectious disease caused by Mycobacterium leprae.",
+        "remedies": [
+            "Multi-drug therapy (MDT)"
+        ]
+    },
+    {
+        "disease": "Diphtheria",
+        "symptoms": [
+            "Sore throat",
+            "fever",
+            "swollen glands",
+            "thick coating in the throat"
+        ],
+        "description": "A serious bacterial infection affecting the mucous membranes.",
+        "remedies": [
+            "Antitoxin",
+            "antibiotics",
+            "vaccination"
+        ]
+    },
+    {
+        "disease": "Anthrax",
+        "symptoms": [
+            "Skin ulcers",
+            "fever",
+            "chest discomfort"
+        ],
+        "description": "A serious infectious disease caused by Bacillus anthracis.",
+        "remedies": [
+            "Antibiotics",
+            "antitoxin"
+        ]
+    },
+    {
+        "disease": "Tularemia",
+        "symptoms": [
+            "Fever",
+            "skin ulcers",
+            "swollen lymph glands"
+        ],
+        "description": "A bacterial infection transmitted by animals.",
+        "remedies": [
+            "Antibiotics (streptomycin, gentamicin)"
+        ]
+    },
+    {
+        "disease": "Botulism",
+        "symptoms": [
+            "Difficulty swallowing",
+            "muscle weakness",
+            "double vision"
+        ],
+        "description": "A rare poisoning caused by toxins produced by Clostridium botulinum.",
+        "remedies": [
+            "Antitoxin",
+            "supportive care",
+            "respiratory support"
+        ]
+    },
+    {
+        "disease": "Syphilis",
+        "symptoms": [
+            "Painless sores",
+            "rash",
+            "fever",
+            "swollen lymph nodes"
+        ],
+        "description": "A sexually transmitted infection caused by the bacterium Treponema pallidum.",
+        "remedies": [
+            "Antibiotics (penicillin)"
+        ]
+    },
+    {
+        "disease": "Chikungunya",
+        "symptoms": [
+            "Fever",
+            "body pains",
+            "joint pains",
+            "muscle pain",
+            "rash"
+        ],
+        "description": "A mosquito-borne viral disease.",
+        "remedies": [
+            "Pain relievers",
+            "rest",
+            "fluids"
+        ]
+    },
+    {
+        "disease": "Gastroesophageal Reflux Disease (GERD)",
+        "symptoms": [
+            "Heartburn",
+            "acidity",
+            "stomach burn",
+            "chest pain",
+            "regurgitation",
+            "trouble swallowing"
+        ],
+        "description": "A chronic condition where stomach acid flows back into the esophagus.",
+        "remedies": [
+            "Antacids",
+            "proton pump inhibitors",
+            "lifestyle changes",
+            "surgery"
+        ]
+    },
+    {
+        "disease": "Chronic Fatigue Syndrome (CFS)",
+        "symptoms": [
+            "Severe fatigue",
+            "sleep problems",
+            "joint pains",
+            "headache"
+        ],
+        "description": "A long-term illness characterized by extreme fatigue.",
+        "remedies": [
+            "Lifestyle changes",
+            "cognitive behavioral therapy",
+            "medications for symptoms"
+        ]
+    },
+    {
+        "disease": "Fibromyalgia",
+        "symptoms": [
+            "Chronic pain",
+            "fatigue",
+            "sleep issues",
+            "memory problems",
+            "body pains",
+            "joint pains"
+        ],
+        "description": "A disorder characterized by widespread musculoskeletal pain.",
+        "remedies": [
+            "Pain relievers",
+            "antidepressants",
+            "exercise",
+            "stress management"
+        ]
+    },
+    {
+        "disease": "Polio (Poliomyelitis)",
+        "symptoms": [
+            "Fever",
+            "sore throat",
+            "headache",
+            "paralysis"
+        ],
+        "description": "A viral disease that can affect nerves and lead to partial or full paralysis.",
+        "remedies": [
+            "No cure",
+            "supportive treatments",
+            "vaccination for prevention"
+        ]
+    },
+    {
+        "disease": "Shingles (Herpes Zoster)",
+        "symptoms": [
+            "Painful rash",
+            "blisters",
+            "itching",
+            "fever"
+        ],
+        "description": "A reactivation of the chickenpox virus causing a painful rash.",
+        "remedies": [
+            "Antiviral medications",
+            "pain relief",
+            "vaccination for prevention"
+        ]
+    },
+    {
+        "disease": "Bell's Palsy",
+        "symptoms": [
+            "Drooping of one side of the face",
+            "drooling",
+            "eye issues"
+        ],
+        "description": "Sudden weakness in the muscles on one half of the face.",
+        "remedies": [
+            "Corticosteroids",
+            "antiviral drugs",
+            "physical therapy"
+        ]
+    },
+    {
+        "disease": "Vertigo",
+        "symptoms": [
+            "Dizziness",
+            "balance problems",
+            "nausea",
+            "vomiting"
+        ],
+        "description": "A sensation of spinning dizziness.",
+        "remedies": [
+            "Vestibular rehabilitation",
+            "medications",
+            "lifestyle changes"
+        ]
+    },
+    {
+        "disease": "Legionnaires Disease",
+        "symptoms": [
+            "Cough",
+            "fever",
+            "chills",
+            "muscle pains"
+        ],
+        "description": "A severe form of pneumonia caused by Legionella bacteria.",
+        "remedies": [
+            "Antibiotics",
+            "supportive care"
+        ]
+    },
+    {
+        "disease": "Rheumatic Fever",
+        "symptoms": [
+            "Fever",
+            "joint pains",
+            "heart inflammation",
+            "skin rash"
+        ],
+        "description": "An inflammatory disease that can develop after a streptococcal infection.",
+        "remedies": [
+            "Antibiotics",
+            "anti-inflammatory treatment",
+            "supportive care"
+        ]
+    },
+    {
+        "disease": "Gonorrhea",
+        "symptoms": [
+            "Painful urination",
+            "discharge",
+            "pelvic pain"
+        ],
+        "description": "A sexually transmitted bacterial infection.",
+        "remedies": [
+            "Antibiotics"
+        ]
+    },
+    {
+        "disease": "Toxoplasmosis",
+        "symptoms": [
+            "Flu-like symptoms",
+            "muscle pain",
+            "fever"
+        ],
+        "description": "An infection caused by the parasite Toxoplasma gondii.",
+        "remedies": [
+            "Antiparasitic drugs",
+            "antibiotics"
+        ]
+    },
+    {
+        "disease": "Histoplasmosis",
+        "symptoms": [
+            "Fever",
+            "cough",
+            "fatigue"
+        ],
+        "description": "A fungal infection from inhaling spores of Histoplasma capsulatum.",
+        "remedies": [
+            "Antifungal medications"
+        ]
+    },
+    {
+        "disease": "Leptospirosis",
+        "symptoms": [
+            "High fever",
+            "headache",
+            "chills",
+            "muscle pains"
+        ],
+        "description": "A bacterial disease spread through the urine of infected animals.",
+        "remedies": [
+            "Antibiotics",
+            "supportive car"
+        ]
+    },
+    {
+        "disease": "Plague",
+        "symptoms": [
+            "Fever",
+            "chills",
+            "headache",
+            "swollen lymph nodes"
+        ],
+        "description": "A severe bacterial infection transmitted by fleas.",
+        "remedies": [
+            "Antibiotics",
+            "supportive care"
+        ]
+    },
+    {
+        "disease": "Vitiligo",
+        "symptoms": [
+            "White patches on the skin, hair, and eyes"
+        ],
+        "description": "A condition where the skin loses pigment cells.",
+        "remedies": [
+            "Topical corticosteroids",
+            "light therapy",
+            "skin grafting"
+        ]
+    },
+    {
+        "disease": "Scurvy",
+        "symptoms": [
+            "Weakness",
+            "anemia",
+            "gum disease",
+            "skin hemorrhages"
+        ],
+        "description": "A disease resulting from a deficiency of vitamin C.",
+        "remedies": [
+            "Vitamin C supplements",
+            "dietary changes"
+        ]
+    },
+    {
+        "disease": "Beriberi",
+        "symptoms": [
+            "Weight loss",
+            "emotional disturbances",
+            "impaired sensory perception"
+        ],
+        "description": "A disease caused by a deficiency of thiamine (vitamin B1).",
+        "remedies": [
+            "Thiamine supplements",
+            "dietary changes"
+        ]
+    },
+    {
+        "disease": "Pellagra",
+        "symptoms": [
+            "Diarrhea",
+            "dermatitis",
+            "dementia"
+        ],
+        "description": "A disease caused by a deficiency of niacin (vitamin B3).",
+        "remedies": [
+            "Niacin supplements",
+            "dietary changes"
+        ]
+    },
+    {
+        "disease": "Rickets",
+        "symptoms": [
+            "Delayed growth",
+            "pain in the spine, pelvis, and legs"
+        ],
+        "description": "A disease in children caused by vitamin D deficiency, leading to soft bones.",
+        "remedies": [
+            " Vitamin D and calcium supplements",
+            "sun exposure"
+        ]
+    },
+    {
+        "disease": "Chronic Kidney Disease (CKD)",
+        "symptoms": [
+            "Fatigue",
+            "swelling (edema)",
+            "changes in urination",
+            "nausea",
+            "itching"
+        ],
+        "description": "Progressive loss of kidney function over time.",
+        "remedies": [
+            "Medications to control symptoms and complications",
+            "dialysis",
+            "kidney transplant"
+        ]
+    },
+    {
+        "disease": "Ovarian Cancer",
+        "symptoms": [
+            "Abdominal bloating",
+            "pelvic pain",
+            "difficulty eating or feeling full quickly",
+            "frequent urination"
+        ],
+        "description": "Cancer that begins in the ovaries, often detected at an advanced stage.",
+        "remedies": [
+            "Surgery",
+            "chemotherapy",
+            "radiation therapy"
+        ]
+    },
+    {
+        "disease": "Obstructive Sleep Apnea",
+        "symptoms": [
+            "Loud snoring",
+            "gasping for air during sleep",
+            "daytime sleepiness"
+        ],
+        "description": "Sleep disorder characterized by repeated episodes of complete or partial blockage of the upper airway during sleep.",
+        "remedies": [
+            "Continuous positive airway pressure (CPAP) therapy",
+            "oral appliances",
+            "lifestyle changes"
+        ]
+    },
+    {
+        "disease": "Ectopic Pregnancy",
+        "symptoms": [
+            "Abdominal pain",
+            "vaginal bleeding",
+            "shoulder pain",
+            "dizziness"
+        ],
+        "description": "Implantation of the fertilized egg outside the uterus, usually in the fallopian tube.",
+        "remedies": [
+            "Surgery (laparoscopic or open)",
+            "medication (methotrexate in some cases)"
+        ]
+    },
+    {
+        "disease": "Fungal Infections",
+        "symptoms": [
+            "itching",
+            "redness",
+            "rashes",
+            "discolouration",
+            "cracking",
+            "swelling"
+        ],
+        "description": "Infections caused by fungi, affecting various parts of the body.",
+        "remedies": [
+            "Antifungal medications (topical or oral)",
+            "keeping the affected area clean and dry"
+        ]
+    },
+    {
+        "disease": "Bipolar Disorder",
+        "symptoms": [
+            "Manic episodes (elevated mood, impulsivity)",
+            "depressive episodes (sadness, hopelessness)"
+        ],
+        "description": "Mental health condition characterized by extreme mood swings between mania and depression.",
+        "remedies": [
+            "Mood stabilizers",
+            "antipsychotic medications",
+            "psychotherapy"
+        ]
+    }
+]
