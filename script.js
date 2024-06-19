@@ -124,6 +124,7 @@ const checkSymptoms = () => {
                     border-radius:50%;
                     width:100%;
                     height:100%;
+                    box-shadow:7px 7px 12px rgb(9, 57, 97);
                 }
         
                 .right {
